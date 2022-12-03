@@ -1,0 +1,5 @@
+.sheet_button {
+    width: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}

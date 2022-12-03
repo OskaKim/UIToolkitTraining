@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/setting_menu.uss?fileID=7433441132597879392&amp;guid=5df481ce0d8a5944c91f6557c9e56c70&amp;type=3#setting_menu" />
+    <ui:VisualElement name="SettingMenuTop" style="flex-grow: 1; align-items: center; justify-content: center; display: flex;">
+        <ui:VisualElement name="SheetButtonGroup" style="flex-direction: row; width: auto; height: auto; flex-grow: 0.1; flex-wrap: nowrap; align-items: center; justify-content: center;">
+            <ui:VisualElement name="GameSheet" class="sheet_button">
+                <ui:Button text="Game" display-tooltip-when-elided="true" name="GameSheetButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="GraphicSheet" class="sheet_button">
+                <ui:Button text="Graphic" display-tooltip-when-elided="true" name="GraphicSheetButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SoundSheet" class="sheet_button" style="flex-grow: 1;">
+                <ui:Button text="Sound" display-tooltip-when-elided="true" name="SoundSheetButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="GameSheetTop" style="flex-grow: 0.9; align-items: flex-start; width: 100%; display: none;">
+            <ui:Label text="This is game sheet" display-tooltip-when-elided="true" />
+            <ui:RadioButtonGroup label="reverse mouse button" value="0" choices="yes,no" style="flex-direction: column;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="GraphicSheetTop" style="flex-grow: 0.9; align-items: flex-start; width: 100%; display: none; visibility: visible;">
+            <ui:Label text="This is graphic sheet" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SoundSheetTop" style="flex-grow: 0.9; align-items: flex-start; width: 100%; display: none;">
+            <ui:Label text="This is sound sheet" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Footer" style="border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); width: 100%; align-items: flex-end;">
+            <ui:Button text="Go back to game" display-tooltip-when-elided="true" name="BackButton" style="align-items: auto; justify-content: flex-start; flex-wrap: nowrap; flex-direction: column; width: auto; right: auto; left: auto; height: 40px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/main_menu_button.uss?fileID=7433441132597879392&amp;guid=2d93099dc1822f34c8071f90ca47e10f&amp;type=3#main_menu_button" />
+    <ui:VisualElement name="MenuTop" style="align-items: center; justify-content: center; display: flex;">
+        <ui:VisualElement name="Menu" usage-hints="None" tooltip="Tootip" style="height: 405px; width: 348px; flex-direction: column; flex-shrink: 1; flex-grow: 0.8; flex-basis: auto; flex-wrap: nowrap; position: relative; align-items: stretch; justify-content: flex-start; -unity-text-align: upper-left; left: auto; right: auto; -unity-background-scale-mode: stretch-to-fill; transform-origin: center; translate: 0 0; visibility: visible; overflow: visible; opacity: 1; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px;">
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="StartButton" class="main_menu_button" style="flex-grow: 1; justify-content: flex-start; background-color: rgba(88, 88, 88, 0);" />
+            <ui:Button text="Setting" display-tooltip-when-elided="true" name="SettingButton" class="main_menu_button" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="main_menu_button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
